@@ -2,7 +2,7 @@ import numpy as np
 import streamlit as st
 import pickle
 
-loaded_model = pickle.load(open("C:/Users/Ann/ML/trained_model.sav", 'rb'))
+loaded_model = pickle.load(open("trained_model.sav", 'rb'))
 
 
 # create a function for prediction
